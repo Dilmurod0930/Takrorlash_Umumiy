@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:list_view_list_builderlar/screen/grid_view/grid_view.dart';
 import 'package:list_view_list_builderlar/screen/list_view/list_view.dart';
 import 'package:list_view_list_builderlar/screen/list_view_builder/list_view_builder.dart';
 import 'package:list_view_list_builderlar/screen/list_view_separator/lisr_view_separator.dart';
@@ -19,6 +20,8 @@ class Routess {
         return MaterialPageRoute(builder: (context) => ListViewSeparatorpage());
       case "/stack":
         return MaterialPageRoute(builder: (context) => StackPage());
+      case "/grid_view":
+        return MaterialPageRoute(builder: (context) => GridViewPage());
     }
   }
 }

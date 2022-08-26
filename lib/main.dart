@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
       onGenerateRoute: Routess.instanse.onGeneret,
-      initialRoute: "/list_view_separator",
+      initialRoute: "/grid_view",
     );
   }
 }
